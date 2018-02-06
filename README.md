@@ -8,7 +8,7 @@ The Web API can be accessed through these 3 Urls:
  
 ## Configuring the project:
 
-After installing all nuget packages, you need to do the following:
+After installing all nuget packages (Right click on solution and Rebuild), you need to do the following:
 - Install Redis if you don't have it already installed (Optional) (https://github.com/MicrosoftArchive/redis/releases)
 - If you choose not to install Redis, or just don't want to use it, you will have to edit the file Waes.App\App_Start\IoCConfig.cs
 and follow the instructions inside the method RegisterDependencies.
