@@ -1,5 +1,5 @@
 # WAES Assignment
-========================
+
 The Web API can be accessed through these 3 Urls:
 
 - Post: <host>/v1/diff/<ID>/left
