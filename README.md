@@ -2,9 +2,9 @@
 
 The Web API can be accessed through these 3 Urls:
 
-- Post: <host>/v1/diff/<ID>/left
-- Post: <host>/v1/diff/<ID>/right
-- Get: <host>/v1/diff/<ID>
+- Post: HOST/v1/diff/ID/left
+- Post: HOST/v1/diff/ID/right
+- Get: HOST/v1/diff/ID
  
 ## Configuring the project:
 
@@ -25,4 +25,4 @@ First, you have to provide the base64 for both left and right endpoints, sending
 }
 ```
 After providing the right and left base64 files, you will be able to access the result of the comparison
-through the GET url: <host>/v1/diff/<ID>
+through the GET url: HOST/v1/diff/ID
